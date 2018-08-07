@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AppCodeDebug2.xcscheme</key>
+		<key>AppCodeDebug2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>AppCodeDebug2Test.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AppCodeDebug2UITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5BE8D3D52119D121003C1689</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>5BE8D3E92119D122003C1689</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>5BE8D3F42119D122003C1689</key>
+		<dict>
+			<key>primary</key>
+			<true />
 		</dict>
 	</dict>
 </dict>

@@ -1,36 +1,18 @@
-//
-//  AppCodeDebug2Tests.swift
-//  AppCodeDebug2Tests
-//
-//  Created by Kuniwak on 2018/08/07.
-//  Copyright © 2018年 Kuniwak. All rights reserved.
-//
-
 import XCTest
+import _SwiftXCTestOverlayShims
 @testable import AppCodeDebug2
 
 class AppCodeDebug2Tests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let context = _XCTContextCurrent()
+        XCTAssertEqual(_XCTContextShouldStartActivity(context, XCTActivityTypeUserCreated), true)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+
+    func testActualUse() {
+        XCTContext.runActivity(named: "TEST1") { _ in
+            XCTContext.runActivity(named: "TEST2") { _ in
+                XCTAssertEqual("a", "A")
+            }
         }
     }
-    
 }
