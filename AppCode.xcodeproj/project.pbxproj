@@ -23,6 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B4140F92119B9D900F62465 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		5B8CCFAC2119B4F70097C05E /* AppCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8CCFAF2119B4F70097C05E /* AppCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCode.h; sourceTree = "<group>"; };
 		5B8CCFB02119B4F70097C05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 			children = (
 				5B8CCFBA2119B4F70097C05E /* AppCodeTests.m */,
 				5B8CCFBC2119B4F70097C05E /* Info.plist */,
+				5B4140F92119B9D900F62465 /* Header.h */,
 			);
 			path = AppCodeTests;
 			sourceTree = "<group>";
